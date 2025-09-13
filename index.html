@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Personality Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Which Personality Type Are You?</h1>
+  
+  <form id="quiz-form">
+    <div class="question">
+      <p>Q1: Do you prefer working alone or with others?</p>
+      <label><input type="radio" name="q1" value="introvert"> Alone</label>
+      <label><input type="radio" name="q1" value="extrovert"> With others</label>
+    </div>
+
+    <div class="question">
+      <p>Q2: Do you make decisions based on logic or feelings?</p>
+      <label><input type="radio" name="q2" value="thinker"> Logic</label>
+      <label><input type="radio" name="q2" value="feeler"> Feelings</label>
+    </div>
+
+    <button type="submit">Get Result</button>
+  </form>
+
+  <div id="result"></div>
+  <script src="script.js"></script>
+</body>
+</html>
